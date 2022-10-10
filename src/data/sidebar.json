@@ -1,0 +1,81 @@
+[
+    {
+        "title": "Home",
+        "icon": "bi-house-fill",
+        "path": "/Home"
+    },
+    {
+        "title": "Resource Management",
+        "icon": "bi-info-circle-fill",
+        "childrens": [
+            {
+                "title": "Create Resource",
+                "path": "/CreateResource"
+            },
+            {
+                "title": "View/ Update Resource",
+                "path": "/ViewUpdateResource"
+            },
+            {
+                "title": "Setup Resource Availability",
+                "path": "/SetupResourceAvailability"
+            },
+            {
+                "title": "View In-Active Resource",
+                "path": "/ViewInActiveResource"
+            }
+            
+        ]
+    },
+    {
+        "title": "Client Management",
+        "icon": "bi-person-fill",
+        "childrens": [
+            {
+                "title": "Create Client Requirement",
+                "path": "/CreateClientRequirement"
+            },
+            {
+                "title": "Update Client Requirement",
+                "path": "/UpdateClientRequirement"
+            }
+        ]
+            
+    },
+    {
+        "title": "Audit Management",
+        "icon": "bi-view-list",
+        "childrens": [
+            {
+                "title": "Allocation Resource",
+                "path": "/AllocationResource"
+            },
+            {
+                "title": "De-Allocation Resource",
+                "path": "/De-AllocationResource"   
+            }
+        ]
+    },
+    {
+        "title": "Audit Manager/ RI Management",
+        "icon": "bi-view-list",
+        "childrens":[
+            {
+                "title": "Create Audit Manager/ RI",
+                "path": "/CreateAuditManagerRI"
+            },
+            {
+                "title": "Update Audit Manager/ RI",
+                "path": "/UpdateAuditManagerRI"
+            },
+            {
+                "title": "Replace Audit Manager",
+                "path": "/ReplaceAuditManager"
+            },
+            {
+                "title": "Replace RI",
+                "path": "/ReplaceRI"
+            }
+        ]
+    }
+]

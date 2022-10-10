@@ -1,0 +1,82 @@
+.containerVAR {
+    position: relative;
+    width: 80vw;
+    height: 80%;
+  }
+
+  .hCR {
+    
+    padding: 15px;
+    align-items: center;
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    /* border-radius: 1em; */
+    /* background-color:#E5E8E8; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #AED6F1;
+  }
+  
+  .containerVAR .rightbtn {
+    margin: 8px 8px;
+    background-color: aqua;
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
+  .containerVAR .app-container {
+  
+    position: relative;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    /* background-color: aqua; */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+  
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+  
+  /* form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  } */

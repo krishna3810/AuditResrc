@@ -1,0 +1,200 @@
+.containerCR {
+    
+    position: relative;
+    width: 80vw;
+    height: 100%;
+    /* background-color: #4070f4; */
+    overflow: auto;
+  }
+  
+  .hCR {
+    
+    padding: 15px;
+    align-items: center;
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    /* border-radius: 1em; */
+    /* background-color:#E5E8E8; */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #AED6F1;
+  }
+  
+  .f-1 {
+    
+    margin: 25px 20px;
+    height: 70vh;
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    /* background-color: #F2F4F4; */
+    text-align: left;
+    width: 75vw;
+    
+  
+  }
+  
+  .d-1 {  
+    
+    position: relative;
+    padding-top: 30px;
+    padding-left: 100px;
+    margin: 20px;
+    font-size: 1.1em;
+  
+  }
+
+  .d-1 #label{
+    padding-top: 10px;
+    padding-left: 13px;
+    margin: 20px;
+  }
+
+  .d-2 {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin: 20px;
+    font-size: 1.1em;
+  
+  }
+  .d-2 #label{
+    
+    padding-left: 13px;
+    margin: 20px;
+  }
+  
+  .d-3 {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin: 20px;
+    font-size: 1.1em;
+  
+  }
+  .d-3 #label{
+    padding-top: 10px;
+    padding-left: 13px;
+    margin: 20px;
+  }
+  
+  .d-3 .option-1 {
+    width: 25%;
+    height: 30px;
+    
+    
+    background-color: #EAEFF3;
+    margin: 8px 12px;
+  }
+  
+  .d-4 {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin: 20px;
+    font-size: 1.1em;
+  }
+  
+  .d-4 #label{
+    padding-top: 10px;
+    padding-left: 13px;
+    margin: 20px;
+  }
+
+  .d-4 .option-2 {
+    width: 25%;
+    height: 30px;
+    background-color: #EAEFF3;
+    margin: 8px 12px;
+  }
+  
+  
+  .d-5 {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 100px;
+    margin: 20px;
+    font-size: 1.1em;
+  }
+  
+  .d-5 #label{
+    padding-top: 10px;
+    padding-left: 13px;
+    margin: 20px;
+  }
+
+  input::placeholder{
+    padding-top: 10px; 
+    margin-left:15px;  
+    width: auto;
+  }
+
+  input[type=text] {
+    padding: 15px;
+    margin: 8px 12px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 25%;
+  }
+  
+  input[type=text1] {
+    padding: 12px 20px;
+    margin: 8px 12px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 20%;
+  }
+  
+  
+  .btns .SaveAsDraft {
+    margin: 8px 8px;
+    height: 30px;
+    width: 125px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btns .SaveAsDraft:hover {
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+  }
+  
+  .btns .Submit {
+    margin: 8px 8px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btns .Submit:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .btns .Cancel {
+    margin: 8px 8px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btns .Cancel:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }

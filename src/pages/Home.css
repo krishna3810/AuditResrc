@@ -1,0 +1,84 @@
+
+.container {
+    margin: 0;
+    padding: 0;  
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .row {
+    display: flex;
+    position: absolute;
+  
+  }
+  
+  .container .row .b1 {
+    margin: 100px 50px;  
+    width: 500px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    
+    background-color: white;
+  
+  }
+  
+  .container .row .b2 {
+    margin: 100px 50px;
+    width: 500px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+  
+  }
+  
+  .container .row .b1 #name {
+    padding: 50px;
+  
+  }
+  
+  .container .row .b2 #name {
+    padding: 50px;
+  
+  }
+  
+  .container .row .b1 button {
+    height: 30px;
+    width: 60px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  
+  }
+  
+  .container .row .b1 button:hover {
+    background-color: aqua;
+    transition: 0.5s;
+  }
+  
+  .container .row .b2 button {
+    height: 30px;
+    width: 60px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .container .row .b2 button:hover {
+    background-color: aqua;
+    transition: 0.5s;
+  }

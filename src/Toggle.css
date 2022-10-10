@@ -1,0 +1,45 @@
+.toggle {
+    background-color: grey;
+    height: 30px;
+    width: 60px;
+    border-radius: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.toggle_left {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.toggle_right {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 5px 2px 5px 35px;
+}
+
+.toggle_name {
+    display: flex;
+    margin: 0;
+    padding: 0;      
+    align-items: center;
+
+}
+
+.toggle-1 {
+    display: flex;
+    padding: 0px 30px;
+    height: 30px;
+    font-size: medium;
+    align-items: center;
+    /* background-color: blue; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+
+}

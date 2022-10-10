@@ -1,0 +1,143 @@
+.containerUR {
+    margin: 0;
+    padding: 0;
+    /* background-color: aquamarine; */
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+  }
+  .UCR{
+    
+    padding: 15px;
+    align-items: center;
+    font-variant: small-caps;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: #AED6F1;
+  }
+  
+  .uf-1{
+    margin: 20px;
+    padding: 30px;
+    height: 72vh;
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    
+    text-align: left;
+  }
+  .u-1{
+  
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+    
+  }
+  
+  
+  .u-2 {
+  
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+  
+  }
+  
+  .u-3 {
+  
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+  
+  }
+  
+  .u-4 {
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  .u-4 .option-1 {
+    width: 25%;
+    height: 30px;
+    background-color: #EAEFF3;
+    margin: 8px 12px;
+  }
+  
+  
+  .u-5 {
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  .u-5 .option-2 {
+    width: 25%;
+    height: 30px;
+    background-color: #EAEFF3;
+    margin: 8px 12px;
+  }
+  
+  .u-6 {
+    position: relative;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 1.2em;
+  }
+  
+  input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 12px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 25%;
+  }
+  
+  input[type=text1] {
+    padding: 12px 20px;
+    margin: 8px 12px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 15%;
+  }
+  
+  .btns .Update {
+    margin: 8px 8px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .btns .Update:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
+  
+  .Cancel{
+    margin: 8px 8px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: 1.5px solid black;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .Update:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+  }
